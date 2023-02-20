@@ -1,6 +1,6 @@
-// import ReactDOM from 'react-dom/client';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './main.scss'
+ import ReactDOM from 'react-dom/client';
+ import 'bootstrap/dist/css/bootstrap.min.css';
+ import './main.scss'
 // import { BrowserRouter, Route, Routes }  from 'react-router-dom'
 // import {  AddCategory, AddUser, Contact, Dashboard, Services, UpdateUser, Users  } from "./pages";
 // import { Alert } from "./components/common";
