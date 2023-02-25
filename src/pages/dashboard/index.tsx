@@ -1,7 +1,12 @@
+import { Layout } from "../../components"
+
 const Dashboard = () => {
 
-    return(
-        <div>Dashboard</div>
+    return (
+        <Layout>
+           Página Dashboard
+        </Layout>
+
     )
 }
-export { Dashboard}
+export { Dashboard }

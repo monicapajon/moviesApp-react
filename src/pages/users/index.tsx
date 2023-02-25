@@ -1,7 +1,13 @@
+import { Layout } from "../../components"
+//import "./users.css"
+
 const Users = () => {
 
-    return(
-        <div>Users</div>
+    return (
+        <Layout>
+            Página Users
+        </Layout >
     )
 }
 export { Users }
+

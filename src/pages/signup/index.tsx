@@ -1,7 +1,11 @@
+import { Layout } from "../../components"
+
 const Signup = () => {
 
-    return(
-        <div>Signup</div>
+    return (
+        <Layout>
+            Página Signup
+        </Layout >
     )
 }
 export { Signup }

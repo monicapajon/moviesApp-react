@@ -1,7 +1,12 @@
+import { Layout } from "../../components"
+
 const Categories = () => {
 
-    return(
-        <div>Categories</div>
+    return (
+        <Layout>
+            Página Categories
+        </Layout>
+
     )
 }
-export { Categories}
+export { Categories }

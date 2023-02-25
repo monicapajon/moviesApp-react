@@ -1,16 +1,22 @@
  import ReactDOM from 'react-dom/client';
+ import App from './App'
  import 'bootstrap/dist/css/bootstrap.min.css';
- import './main.scss'
+ import './assets/scss/main.scss'
+
+ 
+ //import './main.scss'
 // import { BrowserRouter, Route, Routes }  from 'react-router-dom'
 // import {  AddCategory, AddUser, Contact, Dashboard, Services, UpdateUser, Users  } from "./pages";
 // import { Alert } from "./components/common";
 // import { Modal } from "./components/common";
 
 
-//const root = ReactDOM.createRoot(
-//   document.getElementById('root') as HTMLElement
-// );
-// root.render(
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+ );
+ root.render(
+    <App/>
+ );
 //   <BrowserRouter>
 //     <Routes>
 
