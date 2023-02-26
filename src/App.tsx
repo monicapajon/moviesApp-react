@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Categories, Dashboard, Login, Signup, Users } from "./pages";
 
 
