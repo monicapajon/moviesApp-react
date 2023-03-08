@@ -7,6 +7,8 @@
     birthdate: Date
 }
 
+export type SignUpForm = Omit<User, 'id'>
+
 export type Category = {
     id: string
     name: string
