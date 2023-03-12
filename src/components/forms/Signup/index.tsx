@@ -54,7 +54,7 @@ const SignUp = () => {
             </Form.Group>
 
             <Button variant="primary" type="submit">
-                create Account
+                Create Account
             </Button>
         </Form>
     )

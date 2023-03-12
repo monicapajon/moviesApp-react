@@ -15,6 +15,8 @@ export type Category = {
     color: string
 }
 
+export type AddCategoryForm = Omit<Category, 'id'>
+
 export type Task = {
     id: string
     title: string
