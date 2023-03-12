@@ -4,7 +4,7 @@ const Signup = () => {
 
     return (
         <Layout>
-            < SignUpForm/>
+            <SignUpForm/>
         </Layout >
     )
 }
