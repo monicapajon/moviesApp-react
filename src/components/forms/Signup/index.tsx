@@ -3,16 +3,18 @@ import { Form, Button } from "react-bootstrap"
 import { useForm } from "react-hook-form"
 import { servicesUser } from "../../../services/users"
 import { SignUpForm } from "../../../types"
+import "./styles.scss"
 
 const SignUp = () => {
     const { register, handleSubmit } = useForm<SignUpForm>()
     const onSubmit = (data: SignUpForm) => {
 
-        servicesUser.add(data)
+        servicesUser.add(data)// o ({...data})?
+        //aqui me comunico con el servicio de API
     }
 
     return (
-        <Form onSubmit={handleSubmit(onSubmit)}>
+        <Form className='form-signup' onSubmit={handleSubmit(onSubmit)}>
             <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Nombre</Form.Label>
                 <Form.Control type="text" placeholder="Ingresar nombre" {...register('name')} />
