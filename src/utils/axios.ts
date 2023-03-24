@@ -12,6 +12,6 @@ import axios from 'axios'
     baseURL: 'https://moviesapp-react-28339-default-rtdb.firebaseio.com/'
 })
 
-export {apiMovies, api}
+export { apiMovies, api }
 
    
