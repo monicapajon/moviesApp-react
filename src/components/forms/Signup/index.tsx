@@ -9,7 +9,7 @@ const SignUp = () => {
     const { register, handleSubmit } = useForm<SignUpForm>()
     const onSubmit = (data: SignUpForm) => {
 
-        servicesUser.add(data)// o ({...data})?
+        servicesUser.add({...data})// o ({...data})?
         //aqui me comunico con el servicio de API
     }
 
