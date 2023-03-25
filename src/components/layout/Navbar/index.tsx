@@ -1,6 +1,6 @@
 import { Navbar as NavbarBTS, Container, Nav, } from 'react-bootstrap' //NavDropdown?? Falta a mi
 import { NavLink } from 'react-router-dom'
-//import "./styles.scss"
+import "./styles.scss"
 
 const Navbar = () => {
 
@@ -10,7 +10,7 @@ const Navbar = () => {
                 <NavbarBTS.Brand href="#home">moviesApp</NavbarBTS.Brand>
                 <NavbarBTS.Toggle aria-controls="basic-navbar-nav" />
                 <NavbarBTS.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto my-nav">
                         <NavLink className="nav-link" to="/">Home</NavLink>
                         <NavLink className="nav-link" to="/populars">Populars</NavLink>
                         <NavLink className="nav-link" to="/latestReleases">Latest Releases</NavLink>

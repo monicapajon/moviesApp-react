@@ -18,7 +18,7 @@ const SignUp = () => {
             <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Nombre</Form.Label>
                 <Form.Control type="text" placeholder="Ingresar nombre" {...register('name')} />
-                <Form.Text className="text-danger">
+                <Form.Text className="text-danger my-text-danger">
                     We'll never share your name with anyone else.
                 </Form.Text>
             </Form.Group>
