@@ -29,3 +29,9 @@ export type Task = {
 export type SliderBanner = {
     items: [] | any
 }
+
+
+export type SliderPosters ={
+    items: [] | any
+    text: string
+}

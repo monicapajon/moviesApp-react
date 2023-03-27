@@ -1,13 +1,13 @@
 import { Layout } from "../../components"
 
-const Logout  = () => {
+const Logout = () => {
 
-    return(
+    return (
         <Layout>
             Logout
         </Layout>
     )
-    
-    }
-    
-    export { Logout }
+
+}
+
+export { Logout }

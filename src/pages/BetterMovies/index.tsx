@@ -1,13 +1,13 @@
 import { Layout } from "../../components";
 
-const BetterMovies  = () => {
+const BetterMovies = () => {
 
-    return(
+    return (
         <Layout>
-            BetterMovies 
+            BetterMovies
         </Layout>
     )
-    
-    }
-    
-    export { BetterMovies }
+
+}
+
+export { BetterMovies }
