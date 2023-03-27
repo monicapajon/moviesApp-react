@@ -19,7 +19,6 @@ const Dashboard = () => {
 
 
   }, []);
-  console.log(movies, popular, topRated);
 
   return (
     <Layout>
