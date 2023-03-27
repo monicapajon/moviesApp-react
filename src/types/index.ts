@@ -7,11 +7,15 @@
     birthdate: Date
 }
 
+export type SignUpForm = Omit<User, 'id'>
+
 export type Category = {
     id: string
     name: string
     color: string
 }
+
+export type AddCategoryForm = Omit<Category, 'id'>
 
 export type Task = {
     id: string
