@@ -1,5 +1,31 @@
 .main-footer {
-    background-color: blueviolet;
-    height: 50px;
-    margin-top: auto;
+  background-color: rgb(237, 90, 186);
+  position: absolute;
+  width: 100%;
+  color: rgb(235, 34, 144);
+  display: flex;
+  padding: 2%;
+  font-weight: 1em;
+  margin-top: auto;
+
+  .container {
+    font-size: 1em;
+
+    div {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .footer-link {
+    color: rgb(143, 10, 167);
+    text-decoration: none;
+    margin-left: 0.5%;
+  }
+  .footer-link:hover {
+    color: rgb(245, 138, 193);
+    text-decoration: none;
+  }
 }
+// background-color: blueviolet;
+// height: 50px;
+// margin-top: auto;

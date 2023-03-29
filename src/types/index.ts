@@ -25,3 +25,7 @@ export type Task = {
     description: string
     status: string
 }
+
+export type SliderBanner = {
+    items: [] | any
+}
