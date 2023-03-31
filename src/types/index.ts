@@ -35,3 +35,8 @@ export type SliderPosters ={
     items: [] | any
     text: string
 }
+
+export type GridCardPosters ={
+    items: [] | any
+    text: string
+}
