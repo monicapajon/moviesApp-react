@@ -1,12 +1,14 @@
 .scroll {
+  overflow-x: auto;
+  margin-top: 2em;
 
-    overflow-x: auto;
-    margin-top: 2em;
+  .row {
+    flex-wrap: nowrap;
+    height: 250px;
+    width: 15%;
+  }
 
-
-    .row{
-        flex-wrap: nowrap;
-        height: 250px;
-        width: 15%;
-    }
+  .card-block {
+    border-radius: 25px;
+  }
 }
