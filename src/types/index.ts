@@ -44,3 +44,7 @@ export type GridCardPosters = {
 export type GDescript = {
     items: [] | any
 }
+
+export type Props = {
+    onSearch: (text: string) => void
+}
