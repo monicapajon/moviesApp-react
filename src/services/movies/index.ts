@@ -26,6 +26,10 @@ const getSearchMovie = async () => {
     const response = await apiMovies.get(endpoints.SEARCH_MOVIE);
     return response.data;
 };
+const getAllMovieUpcoming = async () => {
+    const response = await apiMovies.get(endpoints.MOVIE_UPCOMING);
+    return response.data;
+  };
 
 
-export { getAllPopular, getBanner, getAllLatestReleases, getAllTopRated, getSearchMovie };
+export { getAllPopular, getBanner, getAllLatestReleases, getAllTopRated, getSearchMovie, getAllMovieUpcoming };
