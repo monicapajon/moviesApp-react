@@ -24,7 +24,8 @@ const Dashboard = () => {
     <Layout>
       <Banner items={movies} />
       <Posters items={popular} text={"Popular Movies"} />
-      <Posters items={topRated} text={"Top Rated Movies"} />
+     
+      <Posters items={topRated} text={"Better Movies"}/>
     </Layout>
   );
 };

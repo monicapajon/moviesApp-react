@@ -1,4 +1,4 @@
- export type User = {
+export type User = {
     id: string
     name: string
     lastname: string
@@ -31,12 +31,12 @@ export type SliderBanner = {
 }
 
 
-export type SliderPosters ={
+export type SliderPosters = {
     items: [] | any
     text: string
 }
-
-export type GridCardPosters ={
+//type para grilla de Movies Populares, Better Movies
+export type GridCardPosters = {
     items: [] | any
     text: string
 }
