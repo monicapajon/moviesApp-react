@@ -18,7 +18,7 @@ const LatestReleases = () => {
 
     return (
         <Layout>
-            <GridMovies items={movies} text={"Movie Upcoming"} />
+            <GridMovies items={movies} text={"Latest Releases"} />
         </Layout>
     )
 

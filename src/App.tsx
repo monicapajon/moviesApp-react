@@ -15,7 +15,7 @@ function App() {
                     <Route path="/logout" element={<Logout />} />
                     <Route path="betterMovies" element={<BetterMovies />} />
                     <Route path="search" element={<Search />} />
-                    <Route path="descriptPage" element={<DescriptPage />} />
+                    <Route path="movie/:id" element={<DescriptPage />} />
 
                 </Route>
             </Routes>
