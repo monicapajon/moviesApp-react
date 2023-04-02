@@ -1,4 +1,4 @@
-import { Navbar as NavbarBTS, Container, Nav, NavDropdown} from 'react-bootstrap' //NavDropdown?? Falta a mi
+import { Navbar as NavbarBTS, Container, Nav} from 'react-bootstrap' //NavDropdown?? Falta a mi
 import { NavLink } from 'react-router-dom'
 import "./styles.scss"
 

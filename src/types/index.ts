@@ -40,3 +40,7 @@ export type GridCardPosters = {
     items: [] | any
     text: string
 }
+
+export type GDescript = {
+    items: [] | any
+}

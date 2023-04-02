@@ -31,5 +31,10 @@ const getAllMovieUpcoming = async () => {
     return response.data;
   };
 
+  const getById = async (id: string) => {
+    const response = await apiMovies.get(`/movie/${id}`);
+    return response.data;
+  };
 
-export { getAllPopular, getBanner, getAllLatestReleases, getAllTopRated, getSearchMovie, getAllMovieUpcoming };
+
+export { getAllPopular, getBanner, getAllLatestReleases, getAllTopRated, getSearchMovie, getAllMovieUpcoming, getById };
