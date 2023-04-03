@@ -1,31 +1,44 @@
 import { FC, useEffect, useState } from 'react'
-import { Props } from '../../../types'
-
-const Search: FC<Props> = ( { onSearch }) =>{
-
-
-    const [text, setText] = useState(''); 
-
-    useEffect(()=>{
-        onSearch(text)
-
-    }, [text])
+import { FormsFields } from '../../../types'
 
 
 
+const defaultValues: FormsFields = {
+    query: "",
+};
 
-return(
-    <div>
-        <div>
-            <form>
-                <input/>
-            </form>
-        </div>
-    </div>
-)
-
-
-
+type Props = {
+    onSearch: (params: FormsFields) => void;
 }
+
+
+const Search: FC<Props> = ({ onSearch }) => {
+
+    const [fields, setFields] = useState(defaultValues);
+
+
+    useEffect(() => {
+        onSearch(fields)
+
+    }, [fields])
+
+
+
+
+    return (
+        <form action="mb-5">
+            <div className="form-group mb-3">
+                <label htmlFor="">Search</label>
+                <input
+                    type="text"
+                    name="text"
+                    className="Form-control"
+                    value={fields.query}
+                    onChange={(e) => setFields({ ...fields, query: e.target.value })}
+                />
+            </div>
+        </form>
+    );
+};
 
 export { Search }
