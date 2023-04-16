@@ -1,4 +1,4 @@
- export type User = {
+export type User = {
     id: string
     name: string
     lastname: string
@@ -27,5 +27,20 @@ export type Task = {
 }
 
 export type SliderBanner = {
+    items: [] | any
+}
+
+
+export type SliderPosters = {
+    items: [] | any
+    text: string
+}
+//type para grilla de Movies Populares, Better Movies
+export type GridCardPosters = {
+    items: [] | any
+    text: string
+}
+
+export type GDescript = {
     items: [] | any
 }

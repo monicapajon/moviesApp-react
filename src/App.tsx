@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { Dashboard, Login, Signup, LatestReleases, Populars, Logout, BetterMovies, Search } from "./pages"
+import { Dashboard, Login, Signup, LatestReleases, Populars, Logout, BetterMovies, Search, DescriptPage } from "./pages"
 
 function App() {
     return (
@@ -15,6 +15,8 @@ function App() {
                     <Route path="/logout" element={<Logout />} />
                     <Route path="betterMovies" element={<BetterMovies />} />
                     <Route path="search" element={<Search />} />
+                    <Route path="movie/:id" element={<DescriptPage />} />
+
                 </Route>
             </Routes>
         </BrowserRouter>
