@@ -1,3 +1,4 @@
+import { convertTypeAcquisitionFromJson } from "typescript";
 import { endpoints } from "../../constants";
 import { apiMovies } from "../../utils/axios";
 
@@ -38,5 +39,17 @@ const getById = async (id: string) => {
     return response.data;
 };
 
+//desde aqui
+// Funciones auxiliares
 
-export { getAllPopular, getBanner, getAllLatestReleases, getAllTopRated, getSearchMovie, getAllMovieUpcoming, getById };
+const generateToken = (): string => {
+  // Aquí generamos el token como mejor nos parezca, por ejemplo usando la librería uuid
+  return uuidv4();
+};
+
+const updateUserWithToken = (userId: string, token: string) => {
+  // función para actualizar el usuario en la base de datos con el token generado
+  // ...
+};
+
+export { getAllPopular, getBanner, getAllLatestReleases, getAllTopRated, getSearchMovie, getAllMovieUpcoming, getById, generateToken, updateUserWithToken };
