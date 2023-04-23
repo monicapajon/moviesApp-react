@@ -49,15 +49,7 @@ export type FormsFields = {
     query: string 
 }
 
-//desde aca
-interface UserContextType {
-    me: User | null;
-    setUser: (user: User | null) => void;
-  }
 
-  export const UserContext = createContext<UserContextType>({
-    me: null,
-    setUser: () => {},
-  });
+
 
   

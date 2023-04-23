@@ -42,14 +42,6 @@ const getById = async (id: string) => {
 //desde aqui
 // Funciones auxiliares
 
-const generateToken = (): string => {
-  // Aquí generamos el token como mejor nos parezca, por ejemplo usando la librería uuid
-  return uuidv4();
-};
 
-const updateUserWithToken = (userId: string, token: string) => {
-  // función para actualizar el usuario en la base de datos con el token generado
-  // ...
-};
 
-export { getAllPopular, getBanner, getAllLatestReleases, getAllTopRated, getSearchMovie, getAllMovieUpcoming, getById, generateToken, updateUserWithToken };
+export { getAllPopular, getBanner, getAllLatestReleases, getAllTopRated, getSearchMovie, getAllMovieUpcoming, getById };
