@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { Dashboard, Login, Signup, LatestReleases, Populars, Logout, BetterMovies, Search, DescriptPage } from "./pages"
+import { Dashboard, Login, Signup, LatestReleases, Populars, Logout, BetterMovies, Searchd, DescriptPage } from "./pages"
 
 function App() {
     return (
@@ -14,7 +14,7 @@ function App() {
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/logout" element={<Logout />} />
                     <Route path="betterMovies" element={<BetterMovies />} />
-                    <Route path="search" element={<Search />} />
+                    <Route path="search" element={<Searchd />} />
                     <Route path="movie/:id" element={<DescriptPage />} />
 
                 </Route>

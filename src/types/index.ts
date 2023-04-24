@@ -38,9 +38,18 @@ export type SliderPosters = {
 //type para grilla de Movies Populares, Better Movies
 export type GridCardPosters = {
     items: [] | any
-    text: string
+    text?: string
 }
 
 export type GDescript = {
     items: [] | any
 }
+
+export type FormsFields = {
+    query: string 
+}
+
+
+
+
+  
