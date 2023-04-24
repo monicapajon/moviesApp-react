@@ -1,0 +1,235 @@
+[33mcommit b32fe7dc99fb274b8d58f62cfe6bc64df280f91d[m[33m ([m[1;36mHEAD -> [m[1;32mlogin[m[33m)[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Mon Apr 24 10:24:32 2023 -0300
+
+    Changes login
+
+[33mcommit 5c72cfef300ea6453fd207efe4bebfcc1cbb333e[m[33m ([m[1;31morigin/login[m[33m)[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Apr 23 19:00:24 2023 -0300
+
+    login page was created
+
+[33mcommit 31e7a219e7d81d5a2ef6328c8033bb7964c3ad1c[m[33m ([m[1;32msearch[m[33m)[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Apr 23 15:06:15 2023 -0300
+
+    Restableciendo
+
+[33mcommit 3a970693c0e3461ed3d6abeb73b4ab971993a607[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Apr 16 23:53:09 2023 -0300
+
+    Login
+
+[33mcommit 2a7c737a03d016f229af6ee3cf0c150ea2032b52[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Apr 2 21:01:34 2023 -0300
+
+    The imput of search was created
+
+[33mcommit b6e91f55e533ef3a91df46d57b9c90499280dd23[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Apr 2 19:54:00 2023 -0300
+
+    Search folder was created
+
+[33mcommit 87f476af097d694a0e6aa1950ffcd8296d6773bf[m[33m ([m[1;31morigin/posters[m[33m, [m[1;32mposters[m[33m)[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Apr 2 19:08:29 2023 -0300
+
+    Descript page and styless was created
+
+[33mcommit 47d8e827a2e06f8aaa2e8302c7cc8072299b9e7f[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Apr 2 16:44:53 2023 -0300
+
+    DescriptPage was created
+
+[33mcommit ffcd999a8bf1ada0e716cbfcf3bd79e7c2dcefb0[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Apr 2 12:01:14 2023 -0300
+
+    Latest Releases page was created
+
+[33mcommit a54efcbba8ce8cc475d1456b87036c1695036c12[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Apr 2 11:08:49 2023 -0300
+
+    Better Movies page was created
+
+[33mcommit 7f247f9996e6ea237f8597ccf68ac219f65fe8e3[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sat Apr 1 18:39:09 2023 -0300
+
+    Styles in Populars cards
+
+[33mcommit 746d97d99a30d604f1acc04111a5acd5f52ccee6[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Fri Mar 31 18:20:14 2023 -0300
+
+    Created GridMovies
+
+[33mcommit c442f50804ed2fedeae84f562f8854893e702d60[m
+Merge: c6ed4e2 157db2e
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Wed Mar 29 11:13:25 2023 -0300
+
+    Merge branch 'main' into posters
+
+[33mcommit 157db2e8197f29060f77bda10e829ab3ec50ff3a[m
+Merge: 5a77893 80b2033
+Author: Mónica Pajón <90482217+monicapajon@users.noreply.github.com>
+Date:   Wed Mar 29 10:56:06 2023 -0300
+
+    Merge pull request #8 from monicapajon/illustration
+    
+    Illustration
+
+[33mcommit 80b203320735a2fe3c975d16fb61e504a4bc2137[m
+Merge: df9c7e9 5a77893
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Mon Mar 27 00:19:54 2023 -0300
+
+    Merge branch 'main' into illustration
+
+[33mcommit c6ed4e2be476bb0cb6c26357cd2181ed00a716fe[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Mon Mar 27 00:17:41 2023 -0300
+
+    styles
+
+[33mcommit 5a77893f537018fbeabe1700c967556050f85563[m
+Merge: dac44f3 822e501
+Author: Mónica Pajón <90482217+monicapajon@users.noreply.github.com>
+Date:   Mon Mar 27 00:12:13 2023 -0300
+
+    Merge pull request #7 from monicapajon/form_connection
+    
+    Form connection
+
+[33mcommit 822e5019ee582711e5bdab54463ed5834c3cc388[m[33m ([m[1;31morigin/form_connection[m[33m)[m
+Merge: fdd846b b2e7997
+Author: Mónica Pajón <90482217+monicapajon@users.noreply.github.com>
+Date:   Mon Mar 27 00:04:03 2023 -0300
+
+    Merge pull request #9 from monicapajon/fix-form-connection
+    
+    Users, AddCategory, Categories and Aside were removed
+
+[33mcommit 9ed7d2ec4914b286afa08c7aae80ef0957e332c6[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Mar 26 23:19:12 2023 -0300
+
+    create posters folder
+
+[33mcommit df9c7e9900f87bd0a3450f9863ae69989eef90eb[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Fri Mar 24 21:30:24 2023 -0300
+
+    create Banner
+
+[33mcommit 8e353c0ccb0b20b9cd137328e603297659b5d448[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Fri Mar 24 18:38:16 2023 -0300
+
+    Create BetterMoovies and Logoaut folders
+
+[33mcommit e05f0fb252f6808717ae2f2b4345b95f23d83a18[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Fri Mar 24 17:54:04 2023 -0300
+
+    Create routes
+
+[33mcommit 74d471aef97cdfb8ea10b21f559bc4496cecea36[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Fri Mar 24 16:13:55 2023 -0300
+
+    Create the constants folder, and the pages
+
+[33mcommit dac837df5658b35f9a7d7fc05b99dfad57fd9387[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Thu Mar 23 17:09:32 2023 -0300
+
+    create main style
+
+[33mcommit 41afd9538cd74534ad9c28ae55871682116669ee[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Thu Mar 23 15:11:38 2023 -0300
+
+    create apiMovies in axios
+
+[33mcommit d11823435f663ddcd08fb823fce13f0287982751[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Thu Mar 16 20:24:53 2023 -0300
+
+    added styles to the signup-form
+
+[33mcommit b2e7997007c4507c71b25b07c9f9914c5ba5067a[m[33m ([m[1;31morigin/fix-form-connection[m[33m, [m[1;32mfix-form-connection[m[33m)[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Wed Mar 15 20:07:54 2023 -0300
+
+    Users, AddCategory, Categories and Aside were removed
+
+[33mcommit fdd846b76ab7fa0a899f763cd9bac08390daa8d1[m[33m ([m[1;31morigin/fix_form_connection[m[33m, [m[1;32mform_connection[m[33m)[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Mar 12 13:23:17 2023 -0300
+
+    The categories form was created and communicated to Api
+
+[33mcommit dac44f3e6e1b4947e587ccd482886761fb46ceb0[m
+Merge: a279b25 dc00604
+Author: Mónica Pajón <90482217+monicapajon@users.noreply.github.com>
+Date:   Tue Mar 7 23:40:12 2023 -0300
+
+    Merge pull request #4 from monicapajon/layout
+    
+    Layout
+
+[33mcommit a6e7b5aeed33b81f862a4b79be53679f8b548f65[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Tue Mar 7 23:11:17 2023 -0300
+
+    Downloaded the axios and react-hook-form libraries. User record created and connected to Firebase
+
+[33mcommit dc00604c9356d221aa92d8e6da2aeab4f39aecdd[m[33m ([m[1;31morigin/layout[m[33m, [m[1;32mlayout[m[33m)[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Feb 26 16:57:00 2023 -0300
+
+    Fixed typo
+
+[33mcommit bad4438cfdc08358c4ec4fa1f546d6cf4d3f3889[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Feb 26 03:38:59 2023 -0300
+
+    registration form (signup) was created
+
+[33mcommit ba71d5e783731e91d755625990c5b41697930dbc[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sun Feb 26 00:45:05 2023 -0300
+
+    navbar creation
+
+[33mcommit 9a055fdca0a296540bc958c65f1b8dee2b92bd56[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sat Feb 25 20:09:18 2023 -0300
+
+    creation of folders and pages. Installing react router dom, react Bootstrap bootstrap, sass
+
+[33mcommit 180b11a16148b40472c1eac4807143c7922e754f[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Mon Feb 20 15:43:41 2023 -0300
+
+    The login, signup, dashboard, categories and users pages were created
+
+[33mcommit 0a194ab59098c19e236c5d22cce05731dbe24099[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Mon Feb 20 15:40:25 2023 -0300
+
+    The login, signup, dashboard, categories and users pages were created
+
+[33mcommit a279b25d70808449361ae967d382a500e6bcc474[m
+Author: Monica Pajon <moniestudio161@gmail.com>
+Date:   Sat Feb 11 09:09:42 2023 -0300
+
+    first commit
