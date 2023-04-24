@@ -1,7 +1,8 @@
-import { FC, ReactNode } from "react"
+import { FC, ReactNode, useEffect } from "react"
 import { Footer } from "../Footer"
 import { Header } from "../Header"
 import { Main } from "../Main"
+import { useMe } from "../../../hooks"
 
 
 type Props = {
@@ -9,18 +10,24 @@ type Props = {
 }
 
 const Layout: FC<Props> = ({ children }) => {
+    const { loginWithToken, me } = useMe();
+
+    useEffect(() => {
+        loginWithToken();
+    }, []);
 
     return (
         <>
             <Header />
-            <div className="d-flex flex-grow-1">
-                
-                <Main>
-                    {children}
-                </Main >
-            </div>
+
+            {me && <Main>
+                {children}
+            </Main>}
+
             <Footer />
         </>
-    )
-}
-export { Layout }   
+    );
+};
+export { Layout }
+
+

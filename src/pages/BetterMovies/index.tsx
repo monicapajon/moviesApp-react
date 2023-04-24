@@ -2,24 +2,26 @@ import { useEffect, useState } from "react";
 import { Layout } from "../../components";
 import { getAllTopRated } from "../../services/movies";
 import { GridMovies } from "../../components/commons/GridMovies";
+import { withAuth } from "../../hoc"
 
-const BetterMovies = () => {
+const BetterMoviesPage = () => {
 
-    const [topRated, setTopRated] = useState([]);
+    const [movies, setMovies] = useState([]);
 
     useEffect(() => {
 
+
         getAllTopRated().then(response => {
-            setTopRated(response.results)
+            setMovies(response.results)
         })
     }, []);
 
     return (
         <Layout>
-            <GridMovies items={topRated} text={"Better Movies"} />
+            <GridMovies items={movies} text={"Better Movies"} />
         </Layout>
     )
 
 }
 
-export { BetterMovies }
+export const BetterMovies = withAuth(BetterMoviesPage);

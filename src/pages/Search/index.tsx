@@ -4,11 +4,15 @@ import { useSearchParams } from "react-router-dom";
 import { getSearchMovie } from "../../services/movies";
 import { GridMovies } from "../../components/commons";
 import { FormsFields } from "../../types";
+import { withAuth } from "../../hoc"
 
 
 const Searchd = () => {
     const [movies, setMovies] = useState([]);
     const [params, setParams] = useState({ query: '' })
+
+
+    
     const [searchParams, setSearchParams] = useSearchParams();
 
     useEffect(() => {
